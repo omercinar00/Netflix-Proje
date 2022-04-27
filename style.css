@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-*{
-    color: antiquewhite;
-}
+/* *{
+    color: rgb(253, 235, 211);
+} */
 
 body{
     background-image: url(./background_image.jpg);
@@ -21,12 +21,49 @@ body{
     width: 400px;
     margin: auto;
     text-align: start;
-    padding: 25px 25px;
+    padding: 25px 30px;
 }
 
-input{
-    color: black;
+.input{
+    color: rgb(0, 0, 0);
     width: 100%;
-    height: 25px;
-    text-indent: 5px;
+    height: 45px;
+    border-style: none;
+    border-radius: 0%;
+    margin: 10px 3px 18px 3px;
 }
+
+.label, p{
+    font-family:'Montserrat', sans-serif;
+    margin: 0px;
+    color: white;
+}
+
+select option{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+.header{
+    margin-top: 15px;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 90px;
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+
+}
+.flix{color: red;}
